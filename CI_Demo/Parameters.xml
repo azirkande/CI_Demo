@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<parameters >
+  <parameter name="DeployementEnvirornment" description="Please provide environment where application is hosted on" defaultValue="true" tags="">
+    <parameterEntry kind="XmlFile" scope=".*.config$" match="/configuration/appSettings/add[@key='DeployementEnvirornment']/@value" />
+  </parameter>
+</parameters>
